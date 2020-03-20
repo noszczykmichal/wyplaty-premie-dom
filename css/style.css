@@ -1,0 +1,28 @@
+.red{
+    background-color: red;
+}
+
+.header{
+    text-align: center;
+}
+
+div[id^="pracownik"], div[id="title"]{
+    display: flex;
+}
+
+span[class^="pracownik"], span[class="wyplata"],span[id^="tytul"], input[type="number"]{
+    text-align: center;
+    border: 1px solid gray;
+    width: 25%;
+} 
+
+span[id^="tytul"]{
+    background-color: greenyellow;
+    font-weight: 700;
+}
+
+#oblicz{
+    margin-top: 20px;
+}
+
+
